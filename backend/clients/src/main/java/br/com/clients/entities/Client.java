@@ -5,6 +5,7 @@ import java.io.Serializable;
 import java.time.Instant;
 
 @Entity
+@Table(name = "tb_client")
 public class Client implements Serializable {
 
     @Id
